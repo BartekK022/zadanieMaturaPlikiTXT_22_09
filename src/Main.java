@@ -12,10 +12,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         ArrayList<Integer> liczbyZPliku = wypiszZawartoscPliku();
-        System.out.println("Liczby z pliku: " + liczbyZPliku);
+        //System.out.println("Liczby z pliku: " + liczbyZPliku);
         int ileParzystych;
 
-    }
+    }//gotowe
     public static ArrayList<Integer> wypiszZawartoscPliku() throws IOException {
         File file = new File("src/liczby.txt");
         ArrayList<Integer> liczby = new ArrayList<>();
